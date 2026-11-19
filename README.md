@@ -1,4 +1,4 @@
-# Nexvia-Enterprise-BI-Suite
+# Nexvia-Enterprise-BI-Suite - Project 1
 # Enterprise BI Suite for a Multi-Region Company
 
 One reporting system combining sales, purchasing (supply chain), finance and HR data from AdventureWorks2022, with region-based row-level security.
