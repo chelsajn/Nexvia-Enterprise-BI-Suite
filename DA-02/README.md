@@ -3,7 +3,15 @@
 Combines website sessions, a CRM and ad spend into one customer view, and shows which marketing channels bring revenue under four attribution models.
 
 ## Architecture
-(docs/architecture.png)
+```mermaid
+flowchart LR
+  A["GA4 sample e-commerce<br/>BigQuery public dataset"] --> C["SQL transformations<br/>sessions, orders, touchpoints"]
+  B["Synthetic CRM<br/>and ad spend"] --> C
+  C --> D["Attribution models<br/>first, last, linear, time decay"]
+  D --> E["ROI, CPA, RFM<br/>and lifetime value tables"]
+  E --> F["CSV export"]
+  F --> G["Tableau dashboard"]
+```
 GA4 public sample (BigQuery) -> SQL transformations (sessions, orders, touchpoints) -> attribution models -> ROI and CPA by channel -> Tableau dashboard. Synthetic CRM and ad spend join in through user ID and channel.
 
 ## Tech stack
