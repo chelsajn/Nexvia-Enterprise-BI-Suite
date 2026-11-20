@@ -46,7 +46,7 @@ BigQuery (SQL), Tableau Public
 
 ## Setup
 1. Create a BigQuery project and a dataset called customer360 in the US location
-2. Run the scripts in /sql in order (01 to 09)
+2. Run the scripts in /sql in order (01 to 10)
 3. Export the three CSVs in /data and open them in Tableau
 
 ## Next steps
