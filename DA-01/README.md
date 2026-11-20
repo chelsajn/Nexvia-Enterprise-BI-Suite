@@ -1,4 +1,4 @@
-# DA_01: Enterprise BI Suite for a Multi-Region Company
+# DA-01: Enterprise BI Suite for a Multi-Region Company
 
 One reporting system combining sales, purchasing (supply chain), finance and HR data from AdventureWorks2022, with region-based row-level security.
 
