@@ -4,8 +4,14 @@
 One reporting system combining sales, purchasing (supply chain), finance and HR data from AdventureWorks2022, with region-based row-level security.
 
 ## Architecture
-(docs/architecture.png)
-
+```mermaid
+flowchart LR
+  A["AdventureWorks2022<br/>OLTP database"] --> B["SQL Agent nightly job<br/>dw.usp_LoadWarehouse"]
+  B --> C["dw star schema<br/>3 facts, 6 dimensions"]
+  B --> L["dw.LoadLog"]
+  C --> D["Power BI model<br/>relationships, DAX, RLS"]
+  D --> E["Reports<br/>Executive, Sales Detail, Operations"]
+```
 ## Tech stack
 SQL Server 2025 Developer, SQL Server Agent, Power BI Desktop, Power Query, DAX
 
