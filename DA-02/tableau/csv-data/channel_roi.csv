@@ -1,0 +1,7 @@
+channel,spend,rev_first,rev_last,rev_linear,rev_decay,roi_first,roi_last,roi_linear,roi_decay,cpa_linear
+Referral,12567,119546,165732,146972,151332,8.51,12.19,10.69,11.04,6.1
+Organic Search,0,130161,98574,107629,107521,,,,,0
+Direct,0,34500,20345,29164,25999,,,,,0
+Other,0,17486,18892,19222,18221,,,,,0
+Paid Search,13810,5491,2960,3836,3535,-0.6,-0.79,-0.72,-0.74,261.55
+Email,79,1016,1697,1377,1591,11.89,20.54,16.47,19.19,5.09

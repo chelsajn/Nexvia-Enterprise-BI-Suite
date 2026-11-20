@@ -1,0 +1,25 @@
+channel,model,revenue
+Referral,First touch,119546
+Organic Search,First touch,130161
+Direct,First touch,34500
+Other,First touch,17486
+Paid Search,First touch,5491
+Email,First touch,1016
+Referral,Last touch,165732
+Organic Search,Last touch,98574
+Direct,Last touch,20345
+Other,Last touch,18892
+Paid Search,Last touch,2960
+Email,Last touch,1697
+Referral,Linear,146972
+Organic Search,Linear,107629
+Direct,Linear,29164
+Other,Linear,19222
+Paid Search,Linear,3836
+Email,Linear,1377
+Referral,Time decay,151332
+Organic Search,Time decay,107521
+Direct,Time decay,25999
+Other,Time decay,18221
+Paid Search,Time decay,3535
+Email,Time decay,1591
